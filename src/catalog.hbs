@@ -1,0 +1,21 @@
+<ul class="catalog_list">
+  {{#each products}}
+    <li class='catalog_element'>
+      
+      <div class="img_container">
+        <img src={{this.image}} width='160' height='240' class='photo'/>
+      </div>
+        <div class="under_img">
+         
+
+        <p class='sku'>{{this.sku}}</p> 
+    
+
+        <div class="right_block">
+            <p class="type">{{this.product_type}}</p>
+            <p class="color">{{this.color}}</p>
+        </div>
+        </div>
+    </li>
+  {{/each}}
+</ul>
