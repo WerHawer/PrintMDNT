@@ -12,6 +12,25 @@ body {
   padding: 0;
 }
 
+#root {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+
+  width: 215px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .catalog_list {
   background-color: #fff;
   margin: 30px auto;
